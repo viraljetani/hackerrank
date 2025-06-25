@@ -1,5 +1,7 @@
 Just trying to solve some hackerrank challenges using Typescript.
 
+npm install 
+
 1) Pile of Socks - pile_of_socks.ts
 Given a pile of socks, where each sock has a positive integer color identifier, determine how many pairs of socks with matching colors there are.
 

@@ -39,7 +39,7 @@ function sockMerchant(n: number, ar: number[]): number {
     ar.sort((a, b) => a - b);
     
     for (let i = 0; i < ar.length - 1; i++) {
-        if (ar[i] === ar[i + 1]) {
+        if (ar[i] === ar[i + 1] && i < ar.length - 1) {
             pair++;
             i++; // Skip the second sock of the pair
         }
